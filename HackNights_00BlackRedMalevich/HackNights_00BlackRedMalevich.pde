@@ -1,0 +1,12 @@
+size(300,500);
+background(225,215,190);
+fill(0);
+rect(50,100,150,150);
+fill(170,0,0);
+noStroke();
+translate(125,300);
+rotate(radians(-15));
+rect(0,0,100,100);
+rotate(radians(15));
+rotate(radians(-15));
+translate(-125,-300);
